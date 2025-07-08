@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+#root {
+  height: 100vh;
+}
+* {
+  outline: none;
+}
+.nav-link-active {
+  @apply font-bold underline-offset-8 underline;
+}
